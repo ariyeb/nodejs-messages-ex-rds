@@ -26,7 +26,7 @@ router.get("/messages", async (req, res) => {
 });
 
 router.get("/", (req, res) => {
-    res.send({ message: "Everything OK" });
+    res.send({ message: "Everything OK!" });
 });
 
 module.exports = router;
